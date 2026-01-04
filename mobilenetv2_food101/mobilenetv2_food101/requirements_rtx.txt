@@ -1,0 +1,9 @@
+torch>=2.0.0
+torchvision>=0.15.0
+tqdm
+scikit-learn
+numpy
+pillow
+
+# For CUDA support (RTX 3070)
+# Install with: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118

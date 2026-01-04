@@ -1,0 +1,29 @@
+# Dataset (The 18GB culprit)
+food-101/
+data/
+*.tar.gz
+*.zip
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# System
+.DS_Store
+.idea/
+.vscode/
+
+# Model Checkpoints (Optional: keep best model, ignore intermediate ones)
+# checkpoint_rtx_epoch*.pth.tar
+# Only keep the best/final models
+# !model_best_rtx.pth.tar
+
+# Logs
+*.log
+runs/
